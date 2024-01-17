@@ -10,12 +10,7 @@ Citizen.CreateThread(function()
     TriggerEvent('chat:addSuggestion', '/togglewindow', 'Open / Close any window on your vehicle!', {
       {name = 'Argument', help = '| ' .. Config.Windows.Commands.DriverWindow .. ' | ' .. Config.Windows.Commands.PassengerWindow .. ' | ' .. Config.Windows.Commands.RearDriverWindow .. ' | ' .. Config.Windows.Commands.RearPassengerWindow .. ' | ' .. Config.Windows.Commands.AllWindows .. ' | ' .. Config.Windows.Commands.FrontWindows .. ' | ' .. Config.Windows.Commands.RearWindows .. ' |'}
     }) 
-  end
-  if Config.Main.enableEngineScript == true then
-    TriggerEvent('chat:addSuggestion', '/engine', 'Turn your vehicle\'s engine on / off.', {
-      {name = 'Argument', help = ' | ' .. Config.Engine.Commands.EngineOn .. ' | ' .. Config.Engine.Commands.EngineOff .. ' |'}
-    })  
-  end
+    end
 end)
 
 if Config.Main.enableDoorScript == true then 
