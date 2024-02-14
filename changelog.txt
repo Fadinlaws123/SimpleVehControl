@@ -1,0 +1,1 @@
+1. Fixed notifications being displayed to everyone in the server.
